@@ -12,7 +12,6 @@ const voteSchema = new mongoose.Schema({
         required: true,
         ref: 'Candidate'
     },
-
 }, {
     timestamps: true
 })
